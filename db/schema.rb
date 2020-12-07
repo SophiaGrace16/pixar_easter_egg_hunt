@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_12_07_155817) do
+ActiveRecord::Schema.define(version: 2020_12_07_165157) do
 
   create_table "easter_eggs", force: :cascade do |t|
     t.string "eg_movie"
@@ -32,6 +32,7 @@ ActiveRecord::Schema.define(version: 2020_12_07_155817) do
     t.string "movie_link"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.integer "num_of_eggs"
   end
 
   add_foreign_key "easter_eggs", "movies"
