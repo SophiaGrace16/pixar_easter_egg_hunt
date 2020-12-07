@@ -46,6 +46,6 @@ class EasterEggsController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def easter_egg_params
-      params.require(:easter_egg).permit(:eg_movie, :easter_eggappearance_time, :time, :movie_id)
+      params.require(:easter_egg).permit(:eg_movie, :easter_egg, :appearance_time, :image, :movie_id)
     end
 end
