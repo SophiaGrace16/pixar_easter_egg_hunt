@@ -1,6 +1,6 @@
 # Pixar Easter Egg Hunt
-* backend code
-* [Front End here(https://github.com/SophiaGrace16/pixar_front_end.git)]
+* This file contains the <b>Back End code</b> for this project
+* To see the <b>Front End Code</b> click here >> (https://github.com/SophiaGrace16/pixar_front_end.git)
 
 
 Structure:
